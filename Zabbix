@@ -20,7 +20,7 @@ return str;
 
 sendMessage: function () {
 var params = {
-chat_id: -4599459257,
+chat_id: Telegram.to,
 text: Telegram.message,
 disable_web_page_preview: true,
 disable_notification: false
